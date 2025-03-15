@@ -18,6 +18,8 @@ def save_data(data):
 
 
 def main():
+
+    st.set_page_config(page_title='Personal Library Manager', page_icon='📚')
     st.title('📚 Personal Library Manager')
 
     data = load_data()
